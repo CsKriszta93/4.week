@@ -43,5 +43,11 @@ namespace Greenfox
     
         }
 
+    class Student : Person
+    {
+        public string previousOrganization;
+        public int skippedDays;
+    }
+
     }
 }
