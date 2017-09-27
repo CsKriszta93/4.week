@@ -28,5 +28,22 @@ namespace SumTest
             int output = 8;
             Assert.AreEqual(output, summ.Summy(listie));
         }
+
+        [Test]
+        public void PrintEmptyListTest()
+        {
+            SumClass summ = new SumClass();
+            var listie = new List<int> { };
+            int output = 0;
+            Assert.AreEqual(output, summ.Summy(listie));
+        }
+
+        [Test]
+        public void PrintNullTest()
+        {
+            SumClass summ = new SumClass();
+            int output = -1;
+            Assert.AreEqual(output, summ.Summy(null));
+        }
     }
 }

@@ -10,7 +10,14 @@ namespace Sum
     {
         public int Summy(List<int> numbers)
         {
-            return numbers.Sum();
+            if (numbers == null)
+            {
+                return -1;
+            }
+            else
+            {
+                return numbers.Sum();
+            }
         }
     }
 }
