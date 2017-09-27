@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum", "Sum\Sum.csproj", "{3E47436C-7155-471A-ABAD-6AAE45E955F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumTest", "SumTest\SumTest.csproj", "{EF7470BF-5D81-4684-BE2C-D2E260F512C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E47436C-7155-471A-ABAD-6AAE45E955F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E47436C-7155-471A-ABAD-6AAE45E955F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E47436C-7155-471A-ABAD-6AAE45E955F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E47436C-7155-471A-ABAD-6AAE45E955F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7470BF-5D81-4684-BE2C-D2E260F512C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7470BF-5D81-4684-BE2C-D2E260F512C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7470BF-5D81-4684-BE2C-D2E260F512C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7470BF-5D81-4684-BE2C-D2E260F512C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B480FE90-32BE-4A5C-9F31-6D102AE3972C}
+	EndGlobalSection
+EndGlobal
